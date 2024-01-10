@@ -6,7 +6,7 @@ export const Rightbar = () => {
       bgcolor="gray"
       flex={1}
       p={2}
-      sx={{ display: { xs: "none", sm: "block" } }}
+      sx={{ display: { xs: "none", lg: "block" } }}
     >
       Right bar
     </Box>
