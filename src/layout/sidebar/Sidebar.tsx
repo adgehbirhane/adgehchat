@@ -1,14 +1,14 @@
 import { Box } from "@mui/material";
 import React from "react";
 
-export const Feed = () => {
+export const Sidebar = () => {
   return (
     <Box
-      bgcolor="Highlight"
-      flex={1}
+      bgcolor="skyblue"
+      flex={0.2}
       p={2}
     >
-      Body
+      Side
     </Box>
   );
 };
