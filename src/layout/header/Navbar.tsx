@@ -1,5 +1,4 @@
-import { AppBar, Box, Toolbar, styled } from '@mui/material'
-import React from 'react'
+import { AppBar, Toolbar, styled } from '@mui/material'
 import { Logo } from '../../common/logo/Logo'
 import { Menubar } from './Menubar'
 
