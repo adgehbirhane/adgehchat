@@ -1,7 +1,24 @@
-import React from 'react'
+import { Typography } from "@mui/material";
+import React from "react";
 
 export const Menubar = () => {
   return (
-    <div>Menu bar</div>
-  )
-}
+    <>
+        <Typography
+      variant="body1"
+      color="darkgrey"
+      sx={{ ml:1, display: { xs: "none", sm: "block" } }}
+    >
+      Menu bar buttons
+    </Typography>
+    <Typography
+      variant="body1"
+      color="darkgrey"
+      sx={{ ml: 1, display: { xs: "block", sm: "none" } }}
+    >
+      Icons only
+    </Typography>
+    </>
+
+  );
+};
