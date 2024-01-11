@@ -1,4 +1,4 @@
-import { ChatTwoTone } from "@mui/icons-material";
+// import { ChatTwoTone } from "@mui/icons-material";
 import { Typography } from "@mui/material";
 
 export const Menubar = () => {
@@ -11,14 +11,14 @@ export const Menubar = () => {
       >
         Dev links
       </Typography>
-      <Typography
+      {/* <Typography
         variant="body1"
         color="darkgrey"
         bgcolor="teal"
         sx={{ pl: 2, pr: 2, mr: 0, display: { xs: "block", sm: "none", zIndex: 1 } }}
       >
            <ChatTwoTone sx={{pt: 1, color:"darkgrey", display: {xs: "block", sm: "none"}}}/>
-      </Typography>
+      </Typography> */}
     </>
   );
 };

@@ -8,7 +8,7 @@ import { Box, Divider, List, ListItemButton, ListItemIcon } from "@mui/material"
 
 export const Sidebar = () => {
   return (
-    <Box flex={0.1}>
+    <Box flex={0.1} sx={{height: '80vh'}}>
         <ListItemButton>
           <ListItemIcon>
             <MenuTwoTone/>

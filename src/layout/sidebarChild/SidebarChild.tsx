@@ -14,7 +14,7 @@ export const SidebarChild = () => {
       bgcolor="grey"
       flex={0.5}
       p={2}
-      sx={{ display: { xs: "none", sm: "block" } }}
+      sx={{ display: { xs: "none", sm: "block" }, height: '80vh' }}
     >
       <SearchBar />
       <List>

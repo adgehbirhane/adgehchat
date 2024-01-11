@@ -1,8 +1,8 @@
 import { Box, Stack } from "@mui/material"
 import { Navbar } from "./layout/header/Navbar"
 import { Sidebar } from "./layout/sidebar/Sidebar"
-import { Feed } from "./layout/feed/Feed"
-import { Rightbar } from "./layout/rightbar/Rightbar"
+import { ChatSpace } from "./layout/body/ChatSpace"
+import { RightBar } from "./layout/rightBar/RightBar"
 import { SidebarChild } from "./layout/sidebarChild/SidebarChild"
 
 function App() {
@@ -13,8 +13,11 @@ function App() {
         <Stack direction="row" justifyContent="space-between" spacing={0.5}>
           <Sidebar/>
           <SidebarChild/>
-          <Feed/>
-          <Rightbar/>
+          <ChatSpace/>
+          <RightBar/>
+        </Stack>
+        <Stack>
+
         </Stack>
     </Box>
   )
