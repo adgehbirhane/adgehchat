@@ -1,7 +1,11 @@
 import styled from "@emotion/styled";
 import { Box } from "@mui/material";
 
-export const Advertisement = () => {
+interface MarqueProps {
+  text: string;
+}
+
+export const Marque: React.FC<MarqueProps> = ({ text }) => {
   const ScrollingText = styled.div`
     white-space: nowrap;
     overflow: hidden;
@@ -20,7 +24,7 @@ export const Advertisement = () => {
   return (
     <Box>
       <ScrollingText>
-        This space is available for any advertisements...
+        {text}
       </ScrollingText>
     </Box>
   );

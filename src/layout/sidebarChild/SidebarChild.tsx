@@ -6,7 +6,7 @@ import {
   ListItemButton,
   ListItemText,
 } from "@mui/material";
-import { SearchBar } from "../../common/SearchBar";
+import { SearchBar } from "../../components/SearchBar";
 
 export const SidebarChild = () => {
   return (
