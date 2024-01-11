@@ -1,5 +1,4 @@
 import {
-  BreakfastDiningOutlined,
   GroupTwoTone,
   HomeTwoTone,
   MenuTwoTone,
@@ -9,7 +8,7 @@ import { Box, Divider, List, ListItemButton, ListItemIcon } from "@mui/material"
 
 export const Sidebar = () => {
   return (
-    <Box bgcolor="darkgrey" flex={0.1}>
+    <Box flex={0.1}>
         <ListItemButton>
           <ListItemIcon>
             <MenuTwoTone/>

@@ -1,14 +1,60 @@
-import { Box } from "@mui/material";
+import {
+  Avatar,
+  Box,
+  List,
+  ListItemAvatar,
+  ListItemButton,
+  ListItemText,
+} from "@mui/material";
+import { SearchBar } from "../../common/SearchBar";
 
 export const SidebarChild = () => {
   return (
     <Box
-      bgcolor="purple"
-      flex={1}
+      bgcolor="grey"
+      flex={0.5}
       p={2}
       sx={{ display: { xs: "none", sm: "block" } }}
     >
-      Child side bar
+      <SearchBar />
+      <List>
+        <ListItemButton>
+          <ListItemAvatar>
+            <Avatar />
+          </ListItemAvatar>
+          <ListItemText>Abebe Kebede</ListItemText>
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemAvatar>
+            <Avatar />
+          </ListItemAvatar>
+          <ListItemText>Kebede Kemal</ListItemText>
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemAvatar>
+            <Avatar />
+          </ListItemAvatar>
+          <ListItemText>Abebe Kebede</ListItemText>
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemAvatar>
+            <Avatar />
+          </ListItemAvatar>
+          <ListItemText>Kebede Kemal</ListItemText>
+        </ListItemButton>{" "}
+        <ListItemButton>
+          <ListItemAvatar>
+            <Avatar />
+          </ListItemAvatar>
+          <ListItemText>Abebe Kebede</ListItemText>
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemAvatar>
+            <Avatar />
+          </ListItemAvatar>
+          <ListItemText>Kebede Kemal</ListItemText>
+        </ListItemButton>
+      </List>
     </Box>
   );
 };

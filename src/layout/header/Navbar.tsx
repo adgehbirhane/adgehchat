@@ -1,6 +1,7 @@
 import { AppBar, Toolbar, styled } from '@mui/material'
 import { Logo } from '../../common/logo/Logo'
 import { Menubar } from './Menubar'
+import { Advertisement } from './Advertisement'
 
 const StyledToolbar = styled(Toolbar)({
   display: 'flex',
@@ -12,6 +13,7 @@ export const Navbar = () => {
     <AppBar sx={{backgroundColor: 'teal', position: 'sticky', p: '0px'}}>
       <StyledToolbar>
           <Logo/>
+          <Advertisement/>
           <Menubar/>
       </StyledToolbar>
     </AppBar>
