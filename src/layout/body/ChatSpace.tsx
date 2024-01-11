@@ -41,7 +41,7 @@ export const ChatSpace = () => {
             borderEndEndRadius: 0,
           }}
         >
-          <img src="https://static.wikia.nocookie.net/miamivice/images/3/3f/Publicimageltd.jpg"/>
+          <img src="https://static.wikia.nocookie.net/miamivice/images/3/3f/Publicimageltd.jpg" />
           <Typography color="darkgray">{new Date().toUTCString()}</Typography>
         </Box>
       </Box>
@@ -57,6 +57,25 @@ export const ChatSpace = () => {
           }}
         >
           <Typography variant="body1">Oh! What a memorable image...</Typography>
+          <Typography color="darkgray">{new Date().toUTCString()}</Typography>
+        </Box>
+      </Box>
+      <Box sx={{ display: "flex", justifyContent: "right" }}>
+        <Box
+          sx={{
+            backgroundColor: "lightcyan",
+            p: 1,
+            mt: 1,
+            borderRadius: 5,
+            borderEndEndRadius: 0,
+          }}
+        >
+          <Typography variant="body1">
+            History is the study of change over time, and it covers all aspects
+            of human society. Political, social, economic, scientific,
+            technological, medical, cultural, intellectual, religious and
+            military developments are all part of history.
+          </Typography>
           <Typography color="darkgray">{new Date().toUTCString()}</Typography>
         </Box>
       </Box>
