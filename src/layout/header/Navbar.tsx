@@ -6,6 +6,8 @@ import { Advertisement } from './Advertisement'
 const StyledToolbar = styled(Toolbar)({
   display: 'flex',
   justifyContent: 'space-between',
+  mr: 0,
+  pr: 0,
 })
 
 export const Navbar = () => {
