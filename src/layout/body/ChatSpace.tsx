@@ -2,7 +2,7 @@ import { Avatar, Box, Typography } from "@mui/material";
 
 export const ChatSpace = () => {
   return (
-    <Box bgcolor="dimgray" flex={2} p={2} sx={{ height: "80vh" }}>
+    <Box bgcolor="#4e4e4e" flex={2} p={2} height="100vh">
       <Box display="flex" gap={2}>
         <Avatar sx={{ mt: 3 }} />
         <Box

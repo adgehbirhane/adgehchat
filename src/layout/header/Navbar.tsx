@@ -10,7 +10,7 @@ const StyledToolbar = styled(Toolbar)({
 
 export const Navbar = () => {
   return (
-    <AppBar sx={{backgroundColor: 'teal', position: 'sticky', p: '0px'}}>
+    <AppBar sx={{backgroundColor: '#343a3a', position: 'sticky', p: '0px'}}>
       <StyledToolbar>
           <Logo/>
           <Marque text="This space is available for any advertisements..."/>

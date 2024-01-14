@@ -12,10 +12,10 @@ import PersonYouMayKnow from "../../section/PersonYouMayKnow";
 export const SidebarChild = () => {
   return (
     <Box
-      bgcolor="grey"
+      bgcolor="#313131"
       flex={0.5}
       p={2}
-      sx={{ display: { xs: "none", sm: "block" }, height: "80vh" }}
+      sx={{ display: { xs: "none", sm: "block" }}}
     >
       <Box sx={{ height: "90%" }}>
         <SearchBar />

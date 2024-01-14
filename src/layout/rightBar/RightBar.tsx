@@ -5,10 +5,10 @@ import { Avatar, Box, Divider, Switch, Typography } from "@mui/material";
 export const RightBar = () => {
   return (
     <Box
-      bgcolor="gray"
+      bgcolor="#313131"
       flex={1}
       p={2}
-      sx={{ display: { xs: "none", lg: "block" }, height: "80vh" }}
+      sx={{ display: { xs: "none", lg: "block" }}}
     >
       {/* <Box>
         <Typography>Person you may know</Typography>
